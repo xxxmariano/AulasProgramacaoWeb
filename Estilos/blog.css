@@ -1,0 +1,32 @@
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+.identificacao{
+background-color: #579FF0;
+color:#FCFCFD;}
+.identificacao h1{
+    font-size: 2.5em;
+}
+.identificacao h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.escuras{
+
+    background-color: #2B313E;
+    color:#FCFCFD;}
+
+.claras{
+    background-color: #FCFCFD;
+    color:#2B313E}
+
+
+.styleprojetos li{
+    background-color:#6f768b;}
+
+
+.styleprojetos li a {
+    color:#ffffff;
+    font-size: 1.3em;}
