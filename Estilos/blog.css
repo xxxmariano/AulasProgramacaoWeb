@@ -2,11 +2,29 @@
 body{
     font-family: Helvetica, sans-serif;
 }
+
+header li {
+display:inline-block;
+margin-left:3cm;
+}
+#contato li{
+display: inline-block;
+margin:1em;
+}
+.containr{
+    padding-left:10%;
+    padding-right:10%;
+
+}
+
 .identificacao{
 background-color: #579FF0;
-color:#FCFCFD;}
+color:#FCFCFD;
+padding:7em 2em;
+}
 .identificacao h1{
     font-size: 2.5em;
+    margin-bottom:0.7em;
 }
 .identificacao h2 {
     font-size: 1.5em;
@@ -14,7 +32,7 @@ color:#FCFCFD;}
 }
 
 section h3 {
-    font-size: 1.7cm;
+    font-size: 1.7em;
 }
 header li a {
 color:#99A0B0;
@@ -38,3 +56,14 @@ font-weight: lighter;
 .styleprojetos li a {
     color:#ffffff;
     font-size: 1.3em;}
+
+
+#sobre img{
+    width:200px;
+}
+footer{
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+
+
