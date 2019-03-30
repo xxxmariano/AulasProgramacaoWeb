@@ -2,7 +2,11 @@
 body{
     font-family: Helvetica, sans-serif;
 }
-
+header{
+    border-bottom:1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom:1em;
+}
 header li {
 display:inline-block;
 margin-left:3cm;
@@ -11,10 +15,14 @@ margin-left:3cm;
 display: inline-block;
 margin:1em;
 }
-.containr{
+.container{
     padding-left:10%;
     padding-right:10%;
 
+}
+section{
+    padding-top: 2em;
+    padding-bottom:2em;
 }
 
 .identificacao{
@@ -33,6 +41,7 @@ padding:7em 2em;
 
 section h3 {
     font-size: 1.7em;
+    margin-bottom:0.5;
 }
 header li a {
 color:#99A0B0;
@@ -50,13 +59,28 @@ font-weight: lighter;
 
 
 .styleprojetos li{
-    background-color:#6f768b;}
-
+    background-color:#6f768b;
+    padding: 1em;}
 
 .styleprojetos li a {
     color:#ffffff;
     font-size: 1.3em;}
+.styleprojetos li p{
+    color:#fff;
+    margin-top:0.5em;
+}
 
+
+#sobre p.test{
+    margin: 1em;
+}
+
+
+#sobre p.bio{
+    color:#579ff0;
+    font-size:1.5em;
+    margin:1em;
+}
 
 #sobre img{
     width:200px;
