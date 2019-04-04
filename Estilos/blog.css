@@ -1,6 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Helvetica, sans-serif;
 
+}
+a{
+    text-decoration: none;
 }
 section img{
     width:100%;
@@ -11,6 +19,17 @@ header {
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
     padding-bottom: 1em;
+    position:fixed;
+    width:100%;
+    height:3em;
+}
+header li a{
+    color:#99A0B0;
+    font-weight:lighter;
+    text-transform: uppercase;
+}
+head ul{
+    text-align: right;
 }
 
 header li {
@@ -31,12 +50,13 @@ header li {
 section {
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 .identificacao {
     background-color: #579FF0;
     color: #FCFCFD;
-    padding: 7em 2em;
+    padding: 10em 2em 7em;
 }
 
 .identificacao h1 {
@@ -94,19 +114,32 @@ header li a {
     text-align:justify;
     line-height: 1.2;
 }
+#sobre{
+    position: relative;
+
+}
 
 #sobre p.text {
     margin: 1em;
+    width:50%;
+    text-align:justify;
+    line-height:1.4;
+
 }
 
 #sobre p.bio {
     color: #579ff0;
     font-size: 1.5em;
     margin: 1em;
+    width:50%;
 }
 
 #sobre img {
     width: 200px;
+    position:absolute;
+    top:0.5em;
+    right:10% ;
+
 }
 
 footer {
